@@ -34,7 +34,7 @@ cidade varchar(50),
 estado varchar(50),
 contato varchar(30),
 email varchar(100),
-data_nascimento date
+data_nascimento date,
 foreign key (especialidade_id) references especialidade(id)
 );
 
